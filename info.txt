@@ -1,0 +1,10 @@
+Synchronizing directory C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka2 with C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka1
+Source directory: C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka1:
+Deleting C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka2\Новый точечный рисунок.bmp
+Deleting C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka2\Лист Microsoft Office Excel.xlsx
+Deleting C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka2\Microsoft Office Access 2007 База данных.accdb
+Deleting C:\Users\dimul\PycharmProjects\pythonProject\Задание 2\papka2\Презентация Microsoft Office PowerPoint.pptx
+dirsync finished in 0.0 seconds.
+1 directories parsed, 0 files copied
+4 files were purged.
+
