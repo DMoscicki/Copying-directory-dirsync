@@ -14,7 +14,7 @@ sys.stdout = origin_stdout
 
 with open('info.txt', 'r', encoding='utf-8') as file:
     for line in file.readlines():
-        print(line, end='')
+        print(line, end='') # return output to console
 
 # f = open('info.txt', 'r')
 # print(f.readlines())
