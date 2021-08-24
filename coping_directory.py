@@ -9,7 +9,7 @@ folder_2 = str(input())
 
 origin_stdout = sys.stdout
 sys.stdout = open('info.txt', 'w', encoding='utf-8')
-sync(folder_1, folder_2,'sync', verbose=True, purge=True)
+sync(folder_1, folder_2, 'sync', verbose=True, purge=True)
 sys.stdout = origin_stdout
 
 with open('info.txt', 'r', encoding='utf-8') as file:
