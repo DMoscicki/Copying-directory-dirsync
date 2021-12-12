@@ -3,12 +3,12 @@ from dirsync import sync
 import sys
 
 print(f'Введите путь к папке:')
-folder_1 = str(input())
+folder_1 = str(input()) # put the path to the directory
 print(f'Введите путь куда хотите скопировать:')
 folder_2 = str(input())
 
 origin_stdout = sys.stdout
-sys.stdout = open('info.txt', 'w', encoding='utf-8')
+sys.stdout = open('info.txt', 'w', encoding='utf-8') # write the output to file
 sync(folder_1, folder_2, 'sync', verbose=True, purge=True)
 sys.stdout = origin_stdout
 
